@@ -47,7 +47,7 @@ jobs:
         run: npm install
       - name: Run Code-coverage
         continue-on-error: true
-        run: npm run code-coverage
+        run: npm run coverage
       - name: Upload code-coverage reports
         uses: actions/upload-artifact@v3
         with:
