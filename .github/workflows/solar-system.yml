@@ -62,8 +62,7 @@ jobs:
           retention-days: 5
 
   docker:
-    permissions: #added
-      packages: write #added
+    permissions: write-all
     runs-on: ubuntu-latest
     needs:
       - code-coverage
